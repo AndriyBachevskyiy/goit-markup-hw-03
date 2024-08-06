@@ -20,14 +20,15 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 .container-header {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 .nav {
-  background-color: #fff;
   display: flex;
+  background-color: #fff;
   align-items: center;
 }
 .logo {
@@ -60,14 +61,16 @@ img {
   color: #f4f4fd;
 }
 .menu {
+  gap: 40px;
   background-color: #fff;
   display: flex;
 }
 .menu-item {
   background-color: #fff;
-  gap: 40px;
+  margin-right: 40px;
 }
 .menu-item-last {
+  background-color: #fff;
   margin-right: 0;
 }
 .menu-link {
