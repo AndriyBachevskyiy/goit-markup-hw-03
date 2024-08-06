@@ -25,7 +25,7 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 .nav {
   display: flex;
@@ -69,10 +69,6 @@ img {
 .menu-item {
   background-color: #fff;
   margin-right: 40px;
-}
-.menu-item-last {
-  background-color: #fff;
-  margin-right: 0;
 }
 .menu-link {
   font-weight: 500;
