@@ -111,8 +111,10 @@ img {
 /* #region hero */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -124,6 +126,11 @@ button {
   cursor: pointer;
 }
 .hero-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
